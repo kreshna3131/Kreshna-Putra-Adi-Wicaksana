@@ -38,9 +38,9 @@ class Items implements Iterator
 }
 
 // Fungsi yang menggunakan iterable
-function printIterable(iterable $myIterable)
+function printIterable(iterable $myData)
 {
-  foreach ($myIterable as $data) {
+  foreach ($myData as $data) {
     echo $data;
   }
 }
